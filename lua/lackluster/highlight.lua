@@ -63,8 +63,8 @@ local highlight = function(theme, color)
 
                 -- MENU
                 spec.co('Pmenu', theme.ui.fg_menu, theme.ui.bg_menu),
-                spec.co('PmenuSbar', theme.ui.bg_scrollbar, theme.ui.bg_scrollbar),
-                spec.co('PmenuThumb', theme.ui.fg_scrollbar, theme.ui.fg_scrollbar),
+                spec.co('PmenuSbar', theme.ui.fg_scrollbar, theme.ui.bg_scrollbar),
+                spec.co('PmenuThumb', theme.ui.bg_scrollbar, theme.ui.fg_scrollbar),
                 spec.co('PmenuSel', theme.ui.fg_search, theme.ui.bg_search_cur),
 
                 -- OTHER UI
